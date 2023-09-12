@@ -1,7 +1,7 @@
 {
-  "name": "redis-poc",
+  "name": "protobuf-poc",
   "version": "0.0.1",
-  "description": "PoC to compare reading/writing proto vs json to Redis",
+  "description": "PoC to compare reading/writing proto vs json",
   "main": "build/index.js",
   "scripts": {
     "dev": "nodemon",
