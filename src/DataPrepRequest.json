@@ -1,0 +1,70 @@
+{
+    "TxTp": "pacs.002.001.12",
+    "FIToFIPmtSts": {
+        "GrpHdr": {
+            "MsgId": "e7ff5cdef2c748178d659bfa2dff2c58",
+            "CreDtTm": "2023-06-27T22:02:15.089Z"
+        },
+        "TxInfAndSts": {
+            "OrgnlInstrId": "5ab4fc7355de4ef8a75b78b00a681ed2",
+            "OrgnlEndToEndId": "9cf2-42be-4571-877d-54e46b3bc2ef",
+            "TxSts": "ACCC",
+            "ChrgsInf": [
+                {
+                    "Amt": {
+                        "Amt": 0,
+                        "Ccy": "USD"
+                    },
+                    "Agt": {
+                        "FinInstnId": {
+                            "ClrSysMmbId": {
+                                "MmbId": "dfsp001"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Amt": {
+                        "Amt": 0,
+                        "Ccy": "USD"
+                    },
+                    "Agt": {
+                        "FinInstnId": {
+                            "ClrSysMmbId": {
+                                "MmbId": "dfsp001"
+                            }
+                        }
+                    }
+                },
+                {
+                    "Amt": {
+                        "Amt": 0,
+                        "Ccy": "USD"
+                    },
+                    "Agt": {
+                        "FinInstnId": {
+                            "ClrSysMmbId": {
+                                "MmbId": "dfsp002"
+                            }
+                        }
+                    }
+                }
+            ],
+            "AccptncDtTm": "2023-06-02T07:52:31.000Z",
+            "InstgAgt": {
+                "FinInstnId": {
+                    "ClrSysMmbId": {
+                        "MmbId": "dfsp001"
+                    }
+                }
+            },
+            "InstdAgt": {
+                "FinInstnId": {
+                    "ClrSysMmbId": {
+                        "MmbId": "dfsp002"
+                    }
+                }
+            }
+        }
+    }
+}

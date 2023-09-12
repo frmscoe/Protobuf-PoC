@@ -1,0 +1,169 @@
+{
+    "TxTp": "pacs.008.001.10",
+    "FIToFICstmrCdt": {
+      "GrpHdr": {
+        "MsgId": "0664226ad53d4ae980310a7ebc040cc6",
+        "CreDtTm": "2023-09-10T12:23:54.818Z",
+        "NbOfTxs": 1,
+        "SttlmInf": {
+          "SttlmMtd": "CLRG"
+        }
+      },
+      "CdtTrfTxInf": {
+        "PmtId": {
+          "InstrId": "5ab4fc7355de4ef8a75b78b00a681ed2",
+          "EndToEndId": "9de9c464056f4d7780f708817779aefa"
+        },
+        "IntrBkSttlmAmt": {
+          "Amt": {
+            "Amt": 833.27,
+            "Ccy": "USD"
+          }
+        },
+        "InstdAmt": {
+          "Amt": {
+            "Amt": 833.27,
+            "Ccy": "USD"
+          }
+        },
+        "ChrgBr": "DEBT",
+        "ChrgsInf": {
+          "Amt": {
+            "Amt": 0,
+            "Ccy": "USD"
+          },
+          "Agt": {
+            "FinInstnId": {
+              "ClrSysMmbId": {
+                "MmbId": "dfsp001"
+              }
+            }
+          }
+        },
+        "InitgPty": {
+          "Nm": "April Blake Grant",
+          "Id": {
+            "PrvtId": {
+              "DtAndPlcOfBirth": {
+                "BirthDt": "1968-02-01",
+                "CityOfBirth": "Unknown",
+                "CtryOfBirth": "ZZ"
+              },
+              "Othr": {
+                "Id": "+27730975224",
+                "SchmeNm": {
+                  "Prtry": "MSISDN"
+                }
+              }
+            }
+          },
+          "CtctDtls": {
+            "MobNb": "+27-730975224"
+          }
+        },
+        "Dbtr": {
+          "Nm": "April Blake Grant",
+          "Id": {
+            "PrvtId": {
+              "DtAndPlcOfBirth": {
+                "BirthDt": "1998-08-20",
+                "CityOfBirth": "Unknown",
+                "CtryOfBirth": "ZZ"
+              },
+              "Othr": {
+                "Id": "dbtr_475e337af6994d3394a2e420f3a193f6",
+                "SchmeNm": {
+                  "Prtry": "ACTIO_EID"
+                }
+              }
+            }
+          },
+          "CtctDtls": {
+            "MobNb": "+27-730975224"
+          }
+        },
+        "DbtrAcct": {
+          "Id": {
+            "Othr": {
+              "Id": "dbtrAcct_7f6728990d084bad88c39e587953443e",
+              "SchmeNm": {
+                "Prtry": "MSISDN"
+              }
+            }
+          },
+          "Nm": "April Grant"
+        },
+        "DbtrAgt": {
+          "FinInstnId": {
+            "ClrSysMmbId": {
+              "MmbId": "dfsp001"
+            }
+          }
+        },
+        "CdtrAgt": {
+          "FinInstnId": {
+            "ClrSysMmbId": {
+              "MmbId": "dfsp002"
+            }
+          }
+        },
+        "Cdtr": {
+          "Nm": "Felicia Easton Quill",
+          "Id": {
+            "PrvtId": {
+              "DtAndPlcOfBirth": {
+                "BirthDt": "1935-05-08",
+                "CityOfBirth": "Unknown",
+                "CtryOfBirth": "ZZ"
+              },
+              "Othr": {
+                "Id": "cdtr_50d050be8be64ccf8fe53b67ca6b7a98",
+                "SchmeNm": {
+                  "Prtry": "ACTIO_EID"
+                }
+              }
+            }
+          },
+          "CtctDtls": {
+            "MobNb": "+27-707650428"
+          }
+        },
+        "CdtrAcct": {
+          "Id": {
+            "Othr": {
+              "Id": "cdtrAcct_bdd777639bd348ecbd381f96bada169b",
+              "SchmeNm": {
+                "Prtry": "MSISDN"
+              }
+            }
+          },
+          "Nm": "Felicia Quill"
+        },
+        "Purp": {
+          "Cd": "TRANSFER"
+        }
+      },
+      "RgltryRptg": {
+        "Dtls": {
+          "Tp": "BALANCE OF PAYMENTS",
+          "Cd": "100"
+        }
+      },
+      "RmtInf": {
+        "Ustrd": "68599aa3c22f4fea8a3cb9cba021000a"
+      },
+      "SplmtryData": {
+        "Envlp": {
+          "Doc": {
+            "Xprtn": "2021-11-30T10:38:56.000Z",
+            "InitgPty": {
+              "Glctn": {
+                "Lat": "-3.1609",
+                "Long": "38.3588"
+              }
+            }
+          }
+        }
+      }
+    }
+  }

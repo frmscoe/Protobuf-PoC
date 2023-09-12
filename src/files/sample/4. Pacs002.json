@@ -1,0 +1,70 @@
+{
+  "TxTp": "pacs.002.001.12",
+  "FIToFIPmtSts": {
+    "GrpHdr": {
+      "MsgId": "f0615c5a8a6b4e4ebe9160ebefd0c15a",
+      "CreDtTm": "2023-09-10T12:28:54.818Z"
+    },
+    "TxInfAndSts": {
+      "OrgnlInstrId": "5ab4fc7355de4ef8a75b78b00a681ed2",
+      "OrgnlEndToEndId": "9de9c464056f4d7780f708817779aefa",
+      "TxSts": "ACCC",
+      "ChrgsInf": [
+        {
+          "Amt": {
+            "Amt": 0,
+            "Ccy": "USD"
+          },
+          "Agt": {
+            "FinInstnId": {
+              "ClrSysMmbId": {
+                "MmbId": "dfsp001"
+              }
+            }
+          }
+        },
+        {
+          "Amt": {
+            "Amt": 0,
+            "Ccy": "USD"
+          },
+          "Agt": {
+            "FinInstnId": {
+              "ClrSysMmbId": {
+                "MmbId": "dfsp001"
+              }
+            }
+          }
+        },
+        {
+          "Amt": {
+            "Amt": 0,
+            "Ccy": "USD"
+          },
+          "Agt": {
+            "FinInstnId": {
+              "ClrSysMmbId": {
+                "MmbId": "dfsp002"
+              }
+            }
+          }
+        }
+      ],
+      "AccptncDtTm": "2023-06-02T07:52:31.000Z",
+      "InstgAgt": {
+        "FinInstnId": {
+          "ClrSysMmbId": {
+            "MmbId": "dfsp001"
+          }
+        }
+      },
+      "InstdAgt": {
+        "FinInstnId": {
+          "ClrSysMmbId": {
+            "MmbId": "dfsp002"
+          }
+        }
+      }
+    }
+  }
+}
